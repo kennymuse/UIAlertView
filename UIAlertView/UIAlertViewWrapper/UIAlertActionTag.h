@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIAlertActionTag.h
 //  UIAlertView
 //
 //  Created by Enrico De Michele on 28/10/15.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIAlertViewDelegate>
+@interface UIAlertActionTag : UIAlertAction
 
-- (IBAction) click:(id)sender;
+@property (nonatomic) int index;
 
 @end
-
